@@ -1,7 +1,7 @@
 require_relative 'colors'
 
 class Player < Colors
-  def guess_code
+  def select_code
     code = []
     all_colors = false
 
